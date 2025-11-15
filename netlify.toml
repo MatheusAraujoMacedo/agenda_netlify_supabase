@@ -1,7 +1,6 @@
 [build]
-command = "cd frontend && npm install && npm run build"
-publish = "frontend/.next"
-
+  command = "cd frontend && npm install && npm run build"
+  publish = "frontend/out"
 
 [functions]
-directory = "netlify/functions"
+  directory = "netlify/functions"

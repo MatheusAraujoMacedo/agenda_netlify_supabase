@@ -1,10 +1,7 @@
 {
-  "name": "agenda-netlify-supabase",
-  "private": true,
-  "workspaces": [
-    "frontend"
-  ],
-  "scripts": {
-    "build": "cd frontend && npm run build"
-  }
+"name": "agenda-netlify-supabase",
+"private": true,
+"scripts": {
+"build": "cd frontend && npm run build"
+}
 }
